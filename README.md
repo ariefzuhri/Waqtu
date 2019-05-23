@@ -1,20 +1,26 @@
-Waqtu Waqtu Rainmeter Prayer Time Skin
+﻿Waqtu Waqtu Rainmeter Prayer Time Skin
 ======================================
 
 Features
 --------
 
-This skin basically will parse the prayer times data from Islamic Finder website every 24 hours.
+![](Config/Images/sample.png)
+
+This skin basically will parse the prayer times data for the chosen zone code in Malaysia from the [JAKIM](https://www.e-solat.gov.my) website every 24 hours:
+- The current prayer time is also highlighted
+- The user can choose to view the prayer times in either 12- or 24-hour format.
+- The developer/maintainer can enable debug mode by setting the variable Debug=1
 
 Requirements
 ------------
 
-Latest version of Rainmeter 2.2. Download [Rainmeter](https://rainmeter.net).
+Latest version of Rainmeter 4.3+. Download [Rainmeter](https://rainmeter.net):
+Requires Raleway True-Type font suite. Download [Raleway](https://fonts.google.com/specimen/Raleway).
 
 Installation
 ------------
 
-1. Extract Waqtu into My Documents/Rainmeter
+1. Extract Waqtu into %USERPROFILE%\Documents\Rainmeter\Skins
 2. Run Rainmeter and Manage Rainmeter
 3. Click Refresh All button if Waqtu is not in the list
 4. Expand Waqtu folder, choose the Prayer Time and Hijri Date skin and click Load Skin button
@@ -24,26 +30,18 @@ Usage
 Using the skin is fairly straightforward. But just in case here is a short video demonstration on how to install and use the skin.
 
 1. Click on the setting button to edit the URL
-2. Visit Islamic Finder website and find your location, based on city and country
-3. Copy the URL code of the XML format
-4. Replace the URL code in the setting
-5. Right click on the skin and Refresh Skin
+2. Find the zone code for your city from the JAKIM website (there is a list in the setting, anyway)
+3. Replace the ZoneCode in the setting
+4. Right click on the skin and Refresh Skin
+
+License
+=======
+
+[Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 
 Changelog
 ---------
 
-**Version 1.2.1 - 6/3/14**
-- Added to Github
-
-**Version 1.2 – 20/2/13**
-Fix positioning issue
-Add another variant – with semi transparent dark background
-
-**Version 1.1. – 23/4/12**
-Split Hijri Date and Daily Prayer time into separate skins
-Clean and better coding
-Setting button for easier way to paste URL
-
-**Version 1.0 – 13/11/11**
-Display daily prayer times and hijri date in one skin
+**Version 1.0 – 22/05/2019**
+- Added to Github (forked Adlan Khalidi's Waqtu Rainmeter skin to use the JAKIM Malaysia prayer times database instead)
