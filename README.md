@@ -1,4 +1,4 @@
-﻿Waqtu Waqtu Rainmeter Prayer Time Skin
+﻿Waqtu Rainmeter Prayer Time Skin
 ======================================
 
 Features
