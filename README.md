@@ -14,7 +14,8 @@ This skin basically will parse the prayer times data for the chosen zone code in
 Requirements
 ------------
 
-Latest version of Rainmeter 4.3+. Download [Rainmeter](https://rainmeter.net):
+Latest version of Rainmeter 4.3+. Download [Rainmeter](https://rainmeter.net)
+
 Requires Raleway True-Type font suite. Download [Raleway](https://fonts.google.com/specimen/Raleway).
 
 Installation
@@ -43,5 +44,13 @@ License
 Changelog
 ---------
 
-**Version 1.0 – 22/05/2019**
+**Version 1.1.0 – 26/05/2019**
+- Corrected the issue with current time not keep updating
+- Corrected the issue with the current prayer time detection
+- Introduced notificatios about the connection problems
+- Made the current hour format persistent on the next reload
+- Added more logs for debugging
+- Change the folder name Config into @Resources to comply with Rainmeter's recommended location to improve its initial load time
+
+**Version 1.0.0 – 22/05/2019**
 - Added to Github (forked Adlan Khalidi's Waqtu Rainmeter skin to use the JAKIM Malaysia prayer times database instead)

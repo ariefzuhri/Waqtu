@@ -6,7 +6,39 @@ FontDateSize=14
 FontFace=Raleway Medium
 ColorText=255,255,255,255
 ColorTextHi=255,255,255,255
+SolidWhite=255,255,255,255
+SolidOffWhite=242,242,242,255
+SolidGreyText=178,178,178,255
 
+[StyleWhiteText]
+FontColor=#SolidWhite#
+
+[StyleLeftAlign]
+StringAlign=Left
+
+[StyleRightAlign]
+StringAlign=Right
+
+[StyleCenterAlign]
+StringAlign=Center
+
+[StyleMediumText]
+AntiAlias=1
+FontFace=#FontFace#
+FontSize=#FontSize#
+FontColor=#SolidWhite#
+SolidColor=47,47,47,255
+StringAlign=Left
+ClipString=0
+
+[StyleSmallText]
+AntiAlias=1
+FontFace=#FontFace#
+FontSize=#FontSize#
+FontColor=#SolidGreyText#
+SolidColor=47,47,47,255
+StringAlign=Left
+ClipString=0
 ;-------------------------------
 
 [prayTime]
@@ -17,8 +49,6 @@ FontColor=#FontColor#
 FontFace=Raleway Light
 FontSize=#FontSize#
 AntiAlias=1
-; SolidColor=47,47,47,255
-; Padding=5,5,5,5
 
 [prayTimeHigh]
 StringAlign=RIGHT
@@ -29,8 +59,6 @@ FontColor=#FontColorHi#
 FontFace=Raleway Black
 FontSize=#FontSize#
 AntiAlias=1
-; SolidColor=47,47,47,255
-; Padding=5,5,5,5
 
 [prayTitle]
 StringAlign=RIGHT
@@ -41,8 +69,6 @@ FontColor=#ColorText#
 FontFace=#FontFace#
 FontSize=#FontSize#
 AntiAlias=1
-; SolidColor=47,47,47,255
-; Padding=5,5,5,5
 
 [prayTitleHigh]
 StringStyle=BOLD
@@ -54,8 +80,6 @@ FontColor=#ColorTextHi#
 FontFace=#FontFace#
 FontSize=#FontSize#
 AntiAlias=1
-; SolidColor=47,47,47,255
-; Padding=5,5,5,5
 
 [hijriDate]
 StringAlign=RIGHT
@@ -67,6 +91,4 @@ FontFace=#FontFace#
 FontSize=#FontDateSize#
 AntiAlias=1
 StringCase=LOWER
-; SolidColor=47,47,47,255
-; Padding=5,5,5,5
 
