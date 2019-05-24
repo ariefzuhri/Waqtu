@@ -4,7 +4,7 @@
 Features
 --------
 
-![](Config/Images/sample.png)
+![](@Resources/Images/sample.png)
 
 This skin basically will parse the prayer times data for the chosen zone code in Malaysia from the [JAKIM](https://www.e-solat.gov.my) website every 24 hours:
 - The current prayer time is also highlighted
