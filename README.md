@@ -44,7 +44,7 @@ License
 Changelog
 ---------
 
-**Version 1.1.0 – 26/05/2019**
+**Version 1.1.0 – 25/05/2019**
 - Corrected the issue with current time not keep updating
 - Corrected the issue with the current prayer time detection
 - Introduced notificatios about the connection problems
