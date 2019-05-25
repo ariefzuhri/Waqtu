@@ -44,6 +44,10 @@ License
 Changelog
 ---------
 
+**Version 1.3.0 – 25/05/2019**
+- Regression: set DoNotOverrideHiddenNonDebug=1 to hide the debug meters
+- Implemented different styles for debug meters and notifications
+
 **Version 1.2.0 – 25/05/2019**
 - Corrected the issue with the current prayer time detection by removing the date component from the current time to get the correct timestamp to compare with each prayer time
 
