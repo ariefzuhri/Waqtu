@@ -2,6 +2,7 @@
 FontColor=255,255,255,255
 FontColorHi=255,255,255,255
 FontSize=12
+FontDebugSize=10
 FontDateSize=14
 FontFace=Raleway Medium
 ColorText=255,255,255,255
@@ -25,7 +26,7 @@ StringAlign=Center
 [StyleMediumText]
 AntiAlias=1
 FontFace=#FontFace#
-FontSize=#FontSize#
+FontSize=#FontDebugSize#
 FontColor=#SolidWhite#
 SolidColor=47,47,47,255
 StringAlign=Left
@@ -34,7 +35,7 @@ ClipString=0
 [StyleSmallText]
 AntiAlias=1
 FontFace=#FontFace#
-FontSize=#FontSize#
+FontSize=#FontDebugSize#
 FontColor=#SolidGreyText#
 SolidColor=47,47,47,255
 StringAlign=Left

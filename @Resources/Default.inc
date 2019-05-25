@@ -85,4 +85,4 @@ URL=https://www.e-solat.gov.my/index.php?r=esolatApi/xmlfeed&zon=#ZoneCode#
 ;toggle debug mode: Debug=0: debug off, Debug=1: debug on
 Debug=0
 ;when Debug=1, set DebugTime to any test time value in format %#H:%M
-DebugTime=17:00:00
+DebugTime=07:00:00
