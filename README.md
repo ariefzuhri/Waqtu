@@ -16,6 +16,8 @@ Requirements
 
 The latest version of Rainmeter 4.3+. Download [Rainmeter](https://rainmeter.net)
 
+Requires Chameleon Rainmeter plugin. Download [Chameleon](https://software.socksthefox.net/chameleon/)
+
 Requires Raleway True-Type font suite. Download [Raleway](https://fonts.google.com/specimen/Raleway)
 
 Installation
@@ -40,9 +42,12 @@ License
 
 [Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-
 Changelog
 ---------
+
+**Version 1.4.0 – 26/05/2019**
+- Corrected the issue with the current prayer time detection by adding the case for the late isyak when the current time > midnight but the current time < the imsak time
+- Applied the Chameleon Rainmeter plugin to blend the styles seamlessly with the current desktop wallpaper
 
 **Version 1.3.0 – 25/05/2019**
 - Regression: set DoNotOverrideHiddenNonDebug=1 to hide the debug meters

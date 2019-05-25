@@ -10,6 +10,64 @@ ColorTextHi=255,255,255,255
 SolidWhite=255,255,255,255
 SolidOffWhite=242,242,242,255
 SolidGreyText=178,178,178,255
+FadeTime=500
+
+[ChameleonDesktop]
+Measure=Plugin
+Plugin=Chameleon
+Type=Desktop
+
+[ChamFG1]
+Measure=Plugin
+Plugin=Chameleon
+Parent=ChameleonDesktop
+Color=Foreground1
+
+[ChamFG2]
+Measure=Plugin
+Plugin=Chameleon
+Parent=ChameleonDesktop
+Color=Foreground2
+
+[ChamBG1]
+Measure=Plugin
+Plugin=Chameleon
+Parent=ChameleonDesktop
+Color=Background1
+
+[ChamBG2]
+Measure=Plugin
+Plugin=Chameleon
+Parent=ChameleonDesktop
+Color=Background2
+
+[DesktopBG1]
+Measure=Script
+ScriptFile=#@#Fade.lua
+Source=ChamBG1
+Timestep=25
+
+[DesktopBG2]
+Measure=Script
+ScriptFile=#@#Fade.lua
+Source=ChamBG2
+Timestep=25
+
+[DesktopFG1]
+Measure=Script
+ScriptFile=#@#Fade.lua
+Source=ChamFG1
+Timestep=25
+
+[DesktopFG2]
+Measure=Script
+ScriptFile=#@#Fade.lua
+Source=ChamFG2
+Timestep=25
+
+[MainBackground]
+DynamicVariables=1
+SolidColor=[DesktopBG1]FF
 
 [StyleWhiteText]
 FontColor=#SolidWhite#
@@ -24,6 +82,7 @@ StringAlign=Right
 StringAlign=Center
 
 [StyleMediumText]
+DynamicVariables=1
 AntiAlias=1
 FontFace=#FontFace#
 FontSize=#FontSize#
@@ -33,6 +92,7 @@ StringAlign=Left
 ClipString=0
 
 [StyleSmallText]
+DynamicVariables=1
 AntiAlias=1
 FontFace=#FontFace#
 FontSize=#FontSize#
@@ -42,6 +102,7 @@ StringAlign=Left
 ClipString=0
 
 [DebugMediumText]
+DynamicVariables=1
 AntiAlias=1
 FontFace=#FontFace#
 FontSize=#FontDebugSize#
@@ -51,6 +112,7 @@ StringAlign=Left
 ClipString=0
 
 [DebugSmallText]
+DynamicVariables=1
 AntiAlias=1
 FontFace=#FontFace#
 FontSize=#FontDebugSize#
@@ -61,54 +123,56 @@ ClipString=0
 
 ;-------------------------------
 
-[prayTime]
+[PrayTime]
+DynamicVariables=1
 StringAlign=RIGHT
 StringEffect=SHADOW
 FontEffectColor=0,0,0,80
-FontColor=#FontColor#
+FontColor=[DesktopFG1]FF
 FontFace=Raleway Light
 FontSize=#FontSize#
 AntiAlias=1
 
-[prayTimeHigh]
+[PrayTimeHigh]
+DynamicVariables=1
 StringAlign=RIGHT
 StringStyle=BOLD
 StringEffect=SHADOW
 FontEffectColor=0,0,0,80
-FontColor=#FontColorHi#
+FontColor=[DesktopFG2]FF
 FontFace=Raleway Black
 FontSize=#FontSize#
 AntiAlias=1
 
-[prayTitle]
+[PrayTitle]
+DynamicVariables=1
 StringAlign=RIGHT
-StringCase=NONE
 StringEffect=SHADOW
 FontEffectColor=0,0,0,80
-FontColor=#ColorText#
+FontColor=[DesktopFG1]FF
 FontFace=#FontFace#
 FontSize=#FontSize#
 AntiAlias=1
 
-[prayTitleHigh]
+[PrayTitleHigh]
+DynamicVariables=1
 StringStyle=BOLD
 StringAlign=RIGHT
-StringCase=NONE
 StringEffect=SHADOW
 FontEffectColor=0,0,0,80
-FontColor=#ColorTextHi#
+FontColor=[DesktopFG2]FF
 FontFace=#FontFace#
 FontSize=#FontSize#
 AntiAlias=1
 
-[hijriDate]
-StringAlign=RIGHT
+[HijriDate]
+DynamicVariables=1
 StringStyle=BOLD
+StringAlign=RIGHT
 StringEffect=SHADOW
-FontEffectColor=100,100,100,80
-FontColor=#FontColor#
+;FontEffectColor=100,100,100,80
+FontEffectColor=0,0,0,80
+FontColor=[DesktopFG2]FF
 FontFace=#FontFace#
 FontSize=#FontDateSize#
 AntiAlias=1
-StringCase=LOWER
-
