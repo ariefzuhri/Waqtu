@@ -2,7 +2,9 @@
 FontColor=255,255,255,255
 FontColorHi=255,255,255,255
 FontSize=12
+FontMediumSize=12
 FontDebugSize=10
+FontDebugMediumSize=12
 FontDateSize=14
 FontFace=Raleway Medium
 ColorText=255,255,255,255
@@ -73,21 +75,22 @@ SolidColor=[DesktopBG1]FF
 FontColor=#SolidWhite#
 
 [StyleLeftAlign]
-StringAlign=Left
+StringAlign=LeftCenter
 
 [StyleRightAlign]
-StringAlign=Right
+StringAlign=RightCenter
 
 [StyleCenterAlign]
-StringAlign=Center
+StringAlign=CenterCenter
 
 [StyleMediumText]
 DynamicVariables=1
 AntiAlias=1
 FontFace=#FontFace#
-FontSize=#FontSize#
-FontColor=#SolidWhite#
-SolidColor=47,47,47,255
+FontSize=#FontMediumSize#
+;FontColor=#SolidWhite#
+FontColor=[DesktopFG2]FF
+;SolidColor=47,47,47,255
 StringAlign=Left
 ClipString=0
 
@@ -96,8 +99,9 @@ DynamicVariables=1
 AntiAlias=1
 FontFace=#FontFace#
 FontSize=#FontSize#
-FontColor=#SolidGreyText#
-SolidColor=47,47,47,255
+;FontColor=#SolidGreyText#
+FontColor=[DesktopFG1]FF
+;SolidColor=47,47,47,255
 StringAlign=Left
 ClipString=0
 
@@ -105,10 +109,9 @@ ClipString=0
 DynamicVariables=1
 AntiAlias=1
 FontFace=#FontFace#
-FontSize=#FontDebugSize#
-FontColor=#SolidWhite#
-SolidColor=47,47,47,255
-StringAlign=Left
+FontSize=#FontDebugMediumSize#
+FontColor=[DesktopFG2]FF
+SolidColor=[DesktopBG1]FF
 ClipString=0
 
 [DebugSmallText]
@@ -116,9 +119,8 @@ DynamicVariables=1
 AntiAlias=1
 FontFace=#FontFace#
 FontSize=#FontDebugSize#
-FontColor=#SolidGreyText#
-SolidColor=47,47,47,255
-StringAlign=Left
+FontColor=[DesktopFG1]FF
+SolidColor=[DesktopBG1]FF
 ClipString=0
 
 ;-------------------------------
@@ -153,6 +155,7 @@ FontColor=[DesktopFG1]FF
 FontFace=#FontFace#
 FontSize=#FontSize#
 AntiAlias=1
+;SolidColor=47,47,47,255
 
 [PrayTitleHigh]
 DynamicVariables=1
@@ -164,15 +167,17 @@ FontColor=[DesktopFG2]FF
 FontFace=#FontFace#
 FontSize=#FontSize#
 AntiAlias=1
+;SolidColor=47,47,47,255
 
 [HijriDate]
 DynamicVariables=1
 StringStyle=BOLD
 StringAlign=RIGHT
 StringEffect=SHADOW
-;FontEffectColor=100,100,100,80
 FontEffectColor=0,0,0,80
 FontColor=[DesktopFG2]FF
 FontFace=#FontFace#
 FontSize=#FontDateSize#
 AntiAlias=1
+;SolidColor=47,47,47,255
+

@@ -45,6 +45,12 @@ License
 Changelog
 ---------
 
+**Version 1.5.0 – 27/05/2019**
+- Played the alarm sound stored in the @Resources/Sounds folder when the current prayer time updated
+- Redesigned the skin layout to take in account the skin dimension
+- Redesigned the skin styles
+- Properly hidden the database connection notification when there was no Internet connection
+
 **Version 1.4.0 – 26/05/2019**
 - Corrected the issue with the current prayer time detection by adding the case for the late isyak when the current time > midnight but the current time < the imsak time
 - Applied the Chameleon Rainmeter plugin to blend the styles seamlessly with the current desktop wallpaper

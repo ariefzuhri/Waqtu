@@ -75,6 +75,8 @@ WLY02 - Labuan
 
 @link: https://www.e-solat.gov.my/index.php?siteId=24&pageId=50
 
+Take note the URL used=https://www.e-solat.gov.my/index.php?r=esolatApi/xmlfeed&zon=#ZoneCode#
+
 }
 
 [Variables]
@@ -85,4 +87,4 @@ URL=https://www.e-solat.gov.my/index.php?r=esolatApi/xmlfeed&zon=#ZoneCode#
 ;toggle debug mode: Debug=0: debug off, Debug=1: debug on
 Debug=0
 ;when Debug=1, set DebugTime to any test time value in format %#H:%M
-DebugTime=05:00:00
+DebugTime=05:31:00
