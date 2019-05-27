@@ -47,7 +47,7 @@ Changelog
 
 **Version 1.5.0 – 27/05/2019**
 - Played the alarm sound stored in the @Resources/Sounds folder when the current prayer time updated
-- Redesigned the skin layout to take in account the skin dimension
+- Redesigned the skin layout to take into account the skin dimension
 - Redesigned the skin styles
 - Properly hidden the database connection notification when there was no Internet connection
 
