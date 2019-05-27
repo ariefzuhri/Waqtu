@@ -1,5 +1,5 @@
 ﻿Waqtu Rainmeter Prayer Time Skin
-======================================
+================================
 
 Features
 --------
@@ -7,7 +7,7 @@ Features
 ![](@Resources/Images/sample.png)
 
 This skin basically will parse the prayer times data for the chosen zone code in Malaysia from the [JAKIM](https://www.e-solat.gov.my) website every 24 hours:
-- The current prayer time is also highlighted
+- The skin will highlight the current prayer time and sound the alarm when it matches the current time
 - The user can choose to view the prayer times in either 12- or 24-hour format
 - The developer/maintainer can enable debug mode by setting the variable Debug=1
 
@@ -16,9 +16,9 @@ Requirements
 
 The latest version of Rainmeter 4.3+. Download [Rainmeter](https://rainmeter.net)
 
-Requires Chameleon Rainmeter plugin. Download [Chameleon](https://software.socksthefox.net/chameleon/)
+It requires Chameleon Rainmeter plugin. Download [Chameleon](https://software.socksthefox.net/chameleon/)
 
-Requires Raleway True-Type font suite. Download [Raleway](https://fonts.google.com/specimen/Raleway)
+It also requires Raleway True-Type font suite. Download [Raleway](https://fonts.google.com/specimen/Raleway)
 
 Installation
 ------------
@@ -38,12 +38,15 @@ Using the skin is fairly straightforward. But just in case, refer to Rainmeter's
 4. Right click on the skin and Refresh Skin
 
 License
-=======
+-------
 
 [Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 Changelog
 ---------
+
+**Version 1.6.0 – 28/05/2019**
+- Played the alarm sound only when the current prayer time matches the current time
 
 **Version 1.5.0 – 27/05/2019**
 - Played the alarm sound stored in the @Resources/Sounds folder when the current prayer time updated
@@ -52,7 +55,7 @@ Changelog
 - Properly hidden the database connection notification when there was no Internet connection
 
 **Version 1.4.0 – 26/05/2019**
-- Corrected the issue with the current prayer time detection by adding the case for the late isyak when the current time > midnight but the current time < the imsak time
+- Corrected the issue with the current prayer time detection by adding the case for the late isya when the current time > midnight but the current time < the imsak time
 - Applied the Chameleon Rainmeter plugin to blend the styles seamlessly with the current desktop wallpaper
 
 **Version 1.3.0 – 25/05/2019**
