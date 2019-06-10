@@ -23,19 +23,24 @@ It also requires Raleway True-Type font suite. Download [Raleway](https://fonts.
 Installation
 ------------
 
-1. Extract Waqtu into %USERPROFILE%\Documents\Rainmeter\Skins folder
+1. Extract Waqtu into %USERPROFILE%\Documents\Rainmeter\Skins folder (for the default Windows installation)
 2. Run Rainmeter and Manage Rainmeter
 3. Click Refresh All button if Waqtu is not in the list
 4. Expand Waqtu folder, choose the Prayer Time and Hijri Date skin and click Load Skin button
 
+When in doubt, please refer to the Rainmeter's guide on how to install and use a skin
+
 Usage
 -----
-Using the skin is fairly straightforward. But just in case, refer to Rainmeter's guide on how to install and use a skin.
+
+Using the skin is fairly straightforward.
 
 1. Click on the setting button to edit the URL
 2. Find the ZoneCode for your city from the JAKIM website (there is a list in the setting, anyway)
 3. Replace the ZoneCode in the setting
 4. Right click on the skin and Refresh Skin
+
+Please be careful not to accidentally change the provided URL template
 
 License
 -------
@@ -44,6 +49,11 @@ License
 
 Changelog
 ---------
+
+**Version 1.7.0 – 02/06/2019**
+- Deprecated the old regex pattern; the new regex pattern could retrieve both the prayer names and the prayer times respectively to be used in the meters
+- Set DefaultUpdateDivider=5 in [Rainmeter] section for the PrayerTime.ini script to give enough time for the new regex pattern to extract the data from the URL
+- Set DefaultUpdateDivider=3600 in [Rainmeter] section for the Date.ini script to slow down the update
 
 **Version 1.6.0 – 28/05/2019**
 - Played the alarm sound only when the current prayer time matches the current time
