@@ -50,6 +50,9 @@ License
 Changelog
 ---------
 
+**Version 1.8.0 – 04/07/2019**
+- Offset the Hijri date by -1 day to streamline with the Hijri calendar in Malaysia
+
 **Version 1.7.0 – 02/06/2019**
 - Deprecated the old regex pattern; the new regex pattern could retrieve both the prayer names and the prayer times respectively to be used in the meters
 - Set DefaultUpdateDivider=5 in [Rainmeter] section for the PrayerTime.ini script to give enough time for the new regex pattern to extract the data from the URL
