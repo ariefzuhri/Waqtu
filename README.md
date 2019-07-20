@@ -9,6 +9,7 @@ Features
 This skin basically will parse the prayer times data for the chosen zone code in Malaysia from the [JAKIM](https://www.e-solat.gov.my) website every 24 hours:
 - The skin will highlight the current prayer time and sound the alarm when it matches the current time
 - The user can choose to view the prayer times in either 12- or 24-hour format
+- The user can set the Hijri offset by setting the variable HijriOffset in day increment/decrement
 - The developer/maintainer can enable debug mode by setting the variable Debug=1
 
 Requirements
@@ -49,6 +50,10 @@ License
 
 Changelog
 ---------
+
+**Version 1.9.0 – 20/07/2019**
+- The Hijri offset could be simply set by setting the HijriOffset variable in day increment/decrement
+- Provided the setting icon for the Date skin to easily access the HijriOffset variable
 
 **Version 1.8.0 – 04/07/2019**
 - Offset the Hijri date by -1 day to streamline with the Hijri calendar in Malaysia

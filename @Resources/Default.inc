@@ -88,3 +88,5 @@ URL=https://www.e-solat.gov.my/index.php?r=esolatApi/xmlfeed&zon=#ZoneCode#
 Debug=0
 ;when Debug=1, set DebugTime to any test time value in format %#H:%M
 DebugTime=05:31:00
+;Hijri offset can be set in increment(+)/decrement(-) by day unit 
+HijriOffset=0
