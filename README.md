@@ -1,4 +1,7 @@
-﻿Waqtu Rainmeter Prayer Time Skin
+# 🚧 Under Development
+Currently developing with the **Kemenag RI** database version. Please ⭐️ this repository if you find it useful or would like to see it completed.
+
+Waqtu Rainmeter Prayer Time Skin
 ================================
 
 Features
